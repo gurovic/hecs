@@ -1,0 +1,206 @@
+body {
+    font-family: sans-serif;
+    font-size:10px;
+    background: #f6f7f0;
+    margin:0;
+    padding:0;
+    background: url("img/hex_bg_blue.png");
+}
+.container {
+    padding-top:10px;
+    margin-left:-45px;
+    width:1700px;
+}
+ul.resources {
+    display: block;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+}
+ul.resources>li{
+    margin-left:20px;
+    min-height:16px;
+    margin-top:40px;
+}
+ul.resources>li:before {
+    margin-left:30px;
+    font-size:16px;
+}
+ul.resources>li.theory:before {
+    content: "ТЕОРИЯ";
+}
+ul.resources>li.video:before {
+    content: "ВИДЕО";
+}
+ul.resources>li.pres:before {
+    content: "ПРЕЗЕНТАЦИИ";
+}
+ul.resources>li.vis:before {
+    content: "ВИЗУАЛИЗАТОРЫ";
+}
+ul.resources>li.task:before {
+    content: "ЗАДАЧИ";
+}
+ul.resources>li.theory{
+    background: url("img/theory16.png") no-repeat 0 0;
+}
+ul.resources>li.video{
+    background: url("img/video16.png") no-repeat 0 0;
+}
+ul.resources>li.pres{
+    background: url("img/pres16.png") no-repeat 0 0;
+}
+ul.resources>li.vis{
+    background: url("img/vis16.png") no-repeat 0 0;
+}
+ul.resources>li.task{
+    background: url("img/task16.png") no-repeat 0 0;
+}
+
+ul.resources>li>ul{
+    margin-top:15px;
+    margin-left:30px;
+}
+ul.resources>li>ul>li{
+     margin-bottom:5px;
+}
+ul.resources ul {
+    display: block;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+}
+li.informatics:before {
+    content: "INFORMATICS";
+    margin-right:8px;
+    font-size:10px;
+    font-family: monospace;
+    color:saddlebrown;
+}
+li.e-maxx:before {
+    content: "E-MAXX";
+    margin-right:8px;
+    font-size:10px;
+    font-family: monospace;
+    color:darkgreen;
+}
+li.sis-video:before {
+    content: "ЛКШ.ВИДЕО";
+    margin-right:8px;
+    font-size:9px;
+    font-family: monospace;
+    color: darkblue;
+}
+li.foxford:before {
+    content: "ФОКСФОРД";
+    margin-right:8px;
+    font-size:9px;
+    font-family: monospace;
+    color: darkorange;
+}
+h1 {
+    margin-left:20px;
+}
+.hecs:hover {
+    transform: scale(.9);
+}
+.hecs {
+    float:left;
+    width:94px;
+    position:relative;
+    margin-top: -33px;
+}
+.hecs .background {
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    text-stroke: 1px white;
+    font-size: 120px;
+    position: absolute;
+    top: -45px;
+    left: -9px;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+.hecs .text{
+    font-size: 10px;
+    z-index:1;
+    padding-top: 30px;
+    padding-left:0;
+    margin-left:0;
+    text-align: center;
+    min-height:85px;
+    min-width:80px;
+    color:white;
+    text-decoration: underline;
+}
+.left {
+    margin-left:47px;
+}
+.text a {
+    color:#ddd;
+    font-size:11px;
+}
+.text:after {
+    content: "⬢";
+    display: block;
+    color:lightgray;
+    font-size: 120px;
+    position: absolute;
+    top: -45px;
+    left: -9px;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+
+}
+.dp:after {
+    color:green;
+}
+.alg:after {
+    color:darkgray;
+}
+.geom:after {
+    color:blue;
+}
+.data:after {
+    color: brown;
+}
+.sort {
+    red;
+}
+.search {
+    color: mediumvioletred;
+}
+.str:after {
+    color: red;
+}
+.eq {
+    color: darkblue;
+}
+.graph:after {
+    color: darkorange;
+}
+.sort:after {
+    color: black;
+}
+.nums:after {
+    color: mediumseagreen;
+}
+.comb:after {
+    color: navy;
+}
+.rec:after {
+    color: tomato;
+}
+.search:after {
+    color: #c5a52c;
+}
