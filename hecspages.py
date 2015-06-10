@@ -40,6 +40,8 @@ for row in csvreader:
             data[row[0]]['id'] = row[14] + '-' + row[15]
 
 for key, value in data.items():
+    if 'id' not in data[key]:
+        continue
     f = open("pages/" + data[key]['id'] + ".html", "w", encoding="utf-8")
     print(HEADER, file=f)
     print('<h1>' + data[key]['title'] + '</h1>\n<ul class="resources">', file=f)
