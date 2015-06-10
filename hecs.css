@@ -1,22 +1,18 @@
 body {
     font-family: sans-serif;
-    font-size:10px;
+    font-size:10pt;
     background: #f6f7f0;
     margin:0;
     padding:0;
 }
 .container {
-    padding-top:10px;
-    margin-left:-45px;
-    width:1700px;
+    padding-top:30px;
+    width:2000px;
 }
 ul.resources {
     display: block;
     list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
     padding-left: 0;
 }
 ul.resources>li{
@@ -26,7 +22,7 @@ ul.resources>li{
 }
 ul.resources>li:before {
     margin-left:30px;
-    font-size:16px;
+    font-size:16pt;
 }
 ul.resources>li.theory:before {
     content: "ТЕОРИЯ";
@@ -69,137 +65,198 @@ ul.resources>li>ul>li{
 ul.resources ul {
     display: block;
     list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
     padding-left: 0;
 }
 li.informatics:before {
     content: "INFORMATICS";
     margin-right:8px;
-    font-size:10px;
+    font-size:10pt;
     font-family: monospace;
     color:saddlebrown;
 }
 li.e-maxx:before {
     content: "E-MAXX";
     margin-right:8px;
-    font-size:10px;
+    font-size:10pt;
     font-family: monospace;
     color:darkgreen;
 }
 li.sis-video:before {
     content: "ЛКШ.ВИДЕО";
     margin-right:8px;
-    font-size:9px;
+    font-size:9pt;
     font-family: monospace;
     color: darkblue;
 }
 li.foxford:before {
     content: "ФОКСФОРД";
     margin-right:8px;
-    font-size:9px;
+    font-size:9pt;
     font-family: monospace;
     color: darkorange;
 }
 h1 {
     margin-left:20px;
 }
-.hecs:hover {
-    transform: scale(.9);
-}
-.hecs {
-    float:left;
-    width:94px;
-    position:relative;
-    margin-top: -33px;
-}
-.hecs .background {
-    color: transparent;
-    -webkit-text-stroke: 1px white;
-    text-stroke: 1px white;
-    font-size: 120px;
-    position: absolute;
-    top: -45px;
-    left: -9px;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-    overflow: hidden;
-}
-.hecs .text{
-    font-size: 10px;
-    z-index:1;
-    padding-top: 30px;
-    padding-left:0;
-    margin-left:0;
-    text-align: center;
-    min-height:85px;
-    min-width:80px;
-    color:white;
-    text-decoration: underline;
-}
-.left {
-    margin-left:47px;
+.hecs.left {
+    margin-left:57px;
 }
 .text a {
     color:#ddd;
     font-size:11px;
 }
-.text:after {
-    content: "⬢";
-    display: block;
-    color:lightgray;
-    font-size: 120px;
-    position: absolute;
-    top: -45px;
-    left: -9px;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-    overflow: hidden;
+.hecs{
+    float:left;
+    position: relative;
+    width: 105px;
+    height: 60.62px;
+    margin: 30.31px 2px;
+    background-color: white;
+    margin-top:5px;
+}
 
+.hecs:before,
+.hecs:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    border-left: 52.5px solid transparent;
+    border-right: 52.5px solid transparent;
 }
-.dp:after {
-    color:green;
+
+.hecs:before {
+    bottom: 100%;
+    border-bottom: 30.31px solid white;
+    margin-top:5px;
 }
-.alg:after {
-    color:darkgray;
+
+.hecs:after {
+    top: 100%;
+    width: 0;
+    margin-left:0;
+    border-top: 30.31px solid white;
 }
-.geom:after {
-    color:blue;
+.data{
+    background-color: brown;
 }
 .data:after {
-    color: brown;
+    border-top-color: brown;
 }
-.sort {
-    red;
+.data:before {
+    border-bottom-color: brown;
+}
+.dp{
+    background-color:green;
+}
+.dp:before{
+    border-bottom-color: green;
+}
+.dp:after{
+    border-top-color: green;
+}
+.alg {
+    background-color:darkgray;
+}
+.alg:after{
+    border-top-color: darkgray;
+}
+.alg:before{
+    border-bottom-color: darkgray;
+}
+.geom {
+    background-color:blue;
+}
+.geom:after{
+    border-top-color: blue;
+}
+.geom:before{
+    border-bottom-color: blue;
 }
 .search {
-    color: mediumvioletred;
+    background-color: mediumvioletred;
 }
-.str:after {
-    color: red;
-}
-.eq {
-    color: darkblue;
-}
-.graph:after {
-    color: darkorange;
-}
-.sort:after {
-    color: black;
-}
-.nums:after {
-    color: mediumseagreen;
-}
-.comb:after {
-    color: navy;
-}
-.rec:after {
-    color: tomato;
+.search:before {
+    border-bottom-color: mediumvioletred;
 }
 .search:after {
-    color: #c5a52c;
+    border-top-color: mediumvioletred;
+}
+.str {
+    background-color: red;
+}
+.str:after{
+    border-top-color: red;
+}
+.str:before{
+    border-bottom-color: red;
+}
+.eq {
+    background-color: darkblue;
+}
+.eq:after{
+    border-top-color: darkblue;
+}
+.eq:before{
+    border-bottom-color: darkblue;
+}
+.graph {
+    background-color: darkorange;
+}
+.graph:before{
+    border-bottom-color: darkorange;
+}
+.graph:after{
+    border-top-color: darkorange;
+}
+.sort {
+    background-color: black;
+}
+.sort:before{
+    border-bottom-color: black;
+}
+.sort:after{
+    border-top-color: black;
+}
+.nums {
+    background-color: mediumseagreen;
+}
+.nums:before{
+    border-bottom-color: mediumseagreen;
+}
+.nums:after{
+    border-top-color: mediumseagreen;
+}
+.comb {
+    background-color: navy;
+}
+.comb:before{
+    border-bottom-color: navy;
+}
+.comb:after{
+    border-top-color: navy;
+}
+.rec {
+    background-color: tomato;
+}
+.rec:before{
+    border-bottom-color: tomato;
+}
+.rec:after{
+    border-top-color: tomato;
+}
+.search {
+    background-color: #c5a52c;
+}
+.search:before{
+    border-bottom-color: #c5a52c;
+}
+.search:after{
+    border-top-color: #c5a52c;
+}
+.inner{
+    text-align:center;
+}
+.inner a{
+    color:white;
 }
