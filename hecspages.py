@@ -36,6 +36,9 @@ for row in csvreader:
             data[row[0]]['video'] += [('foxford', row[9], row[10] or row[1])]
         if row[12]:
             data[row[0]]['video'] += [('sis-video', row[12], row[13] or row[1])]
+        if row[18]:
+            data[row[0]]['theory'] += [('habr', row[18], row[19] or row[1])]
+
         if row[14]:
             data[row[0]]['id'] = row[14] + '-' + row[15]
 

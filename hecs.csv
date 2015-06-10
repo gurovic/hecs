@@ -1,176 +1,182 @@
-,,informatics задачи - ссылка,informatics задачи - название,e-maxx-теория ссылки,e-maxx теория - название,,фоксфорд теория - ссылка,фоксфорд теория - заголовок,фоксфорд видео - ссылка,фоксфорд видео - заголовок,,ЛКШ видео - ссылка,ЛКШ видео заголовок,,,unique id,color
-0,1,2,3,4,5,6,7,8,9,10,11,12,13,,15,16,17
-1,Регулярные выражения,,,,,,,,,,,,,12,13,1,str
-2,Разбор выражений,,,http://e-maxx.ru/algo/expressions_parsing,,,http://foxford.ru/wiki/informatika/obratnaya-polskaya-notatsiya,,http://foxford.ru/wiki/informatika/obratnaya-polskaya-notatsiya,,,,,12,14,2,str
-3,Система независимых множеств,http://informatics.mccme.ru/py-source/source/dir/240-428,,http://e-maxx.ru/algo/mst_kruskal_with_dsu,Алгоритм Краскала с СНМ,,,,,,,,,12,15,3,data
-4,Сортировка кучей,http://informatics.mccme.ru/py-source/source/dir/240-350,Куча,,,,,,,,,,,12,16,4,data
-5,Очередь с приоритетами,http://informatics.mccme.ru/py-source/source/dir/240-350,Куча,,,,,,,,,,,12,17,5,data
-6,ДО с изменением элемента,http://informatics.mccme.ru/py-source/source/dir/240-420,"Дерево отрезков, RMQ, RSQ",http://e-maxx.ru/algo/segment_tree,Дерево отрезков,,,,,,,,,12,18,6,data
-7,ДО с изменением на интервале,http://informatics.mccme.ru/py-source/source/dir/240-420,"Дерево отрезков, RMQ, RSQ",http://e-maxx.ru/algo/segment_tree,Дерево отрезков,,,,,,,,,12,19,7,data
-8,Дерево поиска,http://informatics.mccme.ru/py-source/source/dir/240-419,,,,,,,,,,,,12,20,8,data
-9,ДП по изломанному профилю,http://informatics.mccme.ru/py-source/source/dir/240-426,ДП по профилю,,,,,,,,,,,13,13,9,dp
-10,ДП по профилю,http://informatics.mccme.ru/py-source/source/dir/240-426,,http://e-maxx.ru/algo/profile_dynamics,,,,,,,,,,13,14,10,dp
-11,Конечные автоматы,,,,,,,,,,,,,13,15,11,str
-12,Поиск подстроки в строке,http://informatics.mccme.ru/py-source/source/dir/240-434,,,,,,,,,,,,13,16,12,str
-13,Куча,http://informatics.mccme.ru/py-source/source/dir/240-350,,http://e-maxx.ru/algo/randomized_heap,Рандомизированная куча,,http://foxford.ru/wiki/informatika/kucha-heap,,http://foxford.ru/wiki/informatika/kucha-heap,,,,,13,17,13,data
-14,Дерево отрезков,http://informatics.mccme.ru/py-source/source/dir/240-420,,http://e-maxx.ru/algo/segment_tree,,,,,,,,,,13,18,14,data
-15,Остатки,http://informatics.mccme.ru/py-source/source/dir/240-433,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/BIwzyPBgU6Y/,,13,19,15,nums
-16,Быстрое преобразование Фурье,http://informatics.mccme.ru/py-source/source/dir/240-16152,,http://e-maxx.ru/algo/fft_multiply,,,,,,,,,,13,20,16,nums
-17,Уравнение прямой,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,http://e-maxx.ru/algo/segment_to_line,,,,,,,,,,14,10,17,eq
-18,Решение систем линейных уравнений,,,http://e-maxx.ru/algo/linear_systems_gauss,Метод Гаусса,,,,,,,,,14,11,18,eq
-19,"Решение линейных, квадратных уравнений",,,,,,,,,,,,,14,12,19,eq
-20,ДП на деревьях,http://informatics.mccme.ru/py-source/source/dir/240-425,ДП на графах,,,,,,,,,,,14,13,20,dp
-21,ДП по подмножествам,http://informatics.mccme.ru/py-source/source/dir/240-447,,,,,,,,,,,,14,14,21,dp
-22,ДП по подотрезкам,http://informatics.mccme.ru/py-source/source/dir/240-400,,,,,,,,,,,,14,15,22,dp
-23,Связный список,http://informatics.mccme.ru/py-source/source/dir/240-439,,,,,,,,,,,,14,16,23,data
-24,Дек,http://informatics.mccme.ru/py-source/source/dir/240-363,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/DgGSq4IKOA4/,collections.deque в Python,14,17,24,data
-25,Системы счисления,http://informatics.mccme.ru/py-source/source/dir/240-357,,,,,http://foxford.ru/wiki/informatika/operatsii-v-pozitsionnyh-sistemah-schisleniya,Операции в позиционных системах счисления,,,,,,14,18,25,nums
-26,"Длинная"" арифметика""",http://informatics.mccme.ru/py-source/source/dir/240-383,,,,,,,,,,,,14,19,26,nums
-27,Быстрое возведение в степень,http://informatics.mccme.ru/py-source/source/dir/240-455,,http://e-maxx.ru/algo/binary_pow,,,,,,,,,,14,20,27,nums
-28,Поиск следующего комбинаторного объекта,http://informatics.mccme.ru/py-source/source/dir/240-367,Комбинаторные структуры,,,,,,,,,,,14,21,28,comb
-29,Поиск КО по номеру и номера по объекту,http://informatics.mccme.ru/py-source/source/dir/240-453,,,,,,,,,,,,14,22,29,comb
-30,Алгоритм Грехэма,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,http://e-maxx.ru/algo/convex_hull_graham,,,,,,,,,,14,9,30,geom
-31,Выпуклая оболочка,http://informatics.mccme.ru/py-source/source/dir/240-406,,,,,,,,,,,,15,10,31,geom
-32,Многоугольники. Площадь многоугольников,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,http://e-maxx.ru/algo/polygon_area,,,,,,,,,,15,11,32,geom
-33,Векторное произведение. Площадь треугольника,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,http://e-maxx.ru/algo/euler_path,,,,,,,,,,15,12,33,geom
-34,Векторы и декартовы координаты,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,,,,,,,,,,,15,13,34,geom
-35,Теория расписаний,http://informatics.mccme.ru/py-source/source/dir/240-18213,,,,,,,,,,,,15,14,35,dp
-36,Задача о рюкзаке,http://informatics.mccme.ru/py-source/source/dir/240-413,,,,,http://foxford.ru/wiki/informatika/algoritm-ukladki-ryukzaka,,http://foxford.ru/wiki/informatika/algoritm-ukladki-ryukzaka,,,,,15,15,36,dp
-37,ДП с двумя параметрами,http://informatics.mccme.ru/py-source/source/dir/240-401,,http://e-maxx.ru/algo/longest_increasing_subseq_log,Наибольшая возрастающая последовательность,,http://foxford.ru/wiki/informatika/naibolshaya-obschaya-podposledovatelnost,Наибольшая общая подпоследовательность,http://foxford.ru/wiki/informatika/naibolshaya-obschaya-podposledovatelnost,Наибольшая общая подпоследовательность,,http://sis.khashaev.ru/2013/august/c-prime/0BtGJkm84Ow/,Наибольшая общая подпоследовательность,15,16,37,dp
-38,Стек,http://informatics.mccme.ru/py-source/source/dir/240-362,,,,,http://foxford.ru/wiki/informatika/stek,,http://foxford.ru/wiki/informatika/stek,,,,,15,17,38,data
-39,Очередь,http://informatics.mccme.ru/py-source/source/dir/240-361,,,,,http://foxford.ru/wiki/informatika/ochered,,,,,http://sis.khashaev.ru/2013/august/c-prime/fdRbuT-tLYA/,,15,18,39,data
-40,Алгоритм Евклида,http://informatics.mccme.ru/py-source/source/dir/240-355,,http://e-maxx.ru/algo/euclid_algorithm,,,http://foxford.ru/wiki/informatika/algoritm-evklida-python,,http://foxford.ru/wiki/informatika/algoritm-evklida-python,,,http://sis.khashaev.ru/2013/august/c-prime/lwUfAa0eCdo/,НОД и НОК,15,19,40,nums
-41,Решето Эратосфена,,,http://e-maxx.ru/algo/eratosthenes_sieve,,,http://foxford.ru/wiki/informatika/resheto-eratosfena,,http://foxford.ru/wiki/informatika/resheto-eratosfena,,,http://sis.khashaev.ru/2013/august/c-prime/BIwzyPBgU6Y/,,15,20,41,nums
-42,Количество комбинаторных объектов,,,,,,http://foxford.ru/wiki/informatika/podschet-chisla-kombinatornyh-posledovatelnostey,,http://foxford.ru/wiki/informatika/podschet-chisla-kombinatornyh-posledovatelnostey,,,,,15,21,42,comb
-43,Перебор,,,,,,,,,,,,,15,22,43,rec
-44,Перебор вложенными циклами,http://informatics.mccme.ru/py-source/source/dir/240-385,Простые задачи на перебор,,,,http://foxford.ru/wiki/informatika/polnyy-perebor-s-ispolzovaniem-tsiklov,,http://foxford.ru/wiki/informatika/polnyy-perebor-s-ispolzovaniem-tsiklov,,,,,15,23,44,rec
-45,Алгоритм Джарвиса,http://informatics.mccme.ru/py-source/source/dir/240-407,Многоугольники. Выпуклые оболочки,,,,,,,,,,,16,9,45,geom
-46,Лучи и отрезки,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,,,,,,,,,,,16,10,46,geom
-47,Взаимное расположение точек и прямых,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,http://e-maxx.ru/algo/segments_intersection_checking,Пересечение отрезков,,,,,,,,,16,11,47,geom
-48,Скалярное произведение,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,,,,,,,,,,,16,12,48,geom
-49,Вещественные числа,http://informatics.mccme.ru/py-source/source/dir/240-414,,,,,,,,,,,,16,13,49,geom
-50,Жадные алгоритмы,http://informatics.mccme.ru/py-source/source/dir/240-427,,,,,,,,,,,,16,14,50,dp
-51,ДП на таблицах,http://informatics.mccme.ru/py-source/source/dir/240-399,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/87h-mqcg1-A/,,16,15,51,dp
-52,Одномерное ДП,http://informatics.mccme.ru/py-source/source/dir/240-397,,,,,http://foxford.ru/wiki/informatika/odnomernoe-dinamicheskoe-programmirovanie-nailuchshiy-sposob,Наилучший способ,http://foxford.ru/wiki/informatika/odnomernoe-dinamicheskoe-programmirovanie-nailuchshiy-sposob,Наилучший способ,,http://sis.khashaev.ru/2013/august/c-prime/38WrqoMIGdk/,Рекурсия с запоминанием. Числа Фибоначчи,16,16,52,dp
-53,Структуры данных,,,,,,,,,,,,,16,17,53,data
-54,Проверка на простоту,http://informatics.mccme.ru/py-source/source/dir/240-384,,,,,http://foxford.ru/wiki/informatika/proverka-prostoty-pereborom-deliteley,,http://foxford.ru/wiki/informatika/proverka-prostoty-pereborom-deliteley,,,http://sis.khashaev.ru/2013/august/c-prime/lK2k26ATt38/,,16,18,54,nums
-55,Разложение числа на простые множители,http://informatics.mccme.ru/py-source/source/dir/240-384,,,,,http://foxford.ru/wiki/informatika/faktorizatsiya-pereborom-deliteley,,http://foxford.ru/wiki/informatika/faktorizatsiya-pereborom-deliteley,,,http://sis.khashaev.ru/2013/august/c-prime/RdxW0PTgv2s/,,16,19,55,nums
-56,Основные правила комбинаторики,http://informatics.mccme.ru/py-source/source/dir/240-18189,,,,,,,,,,,,16,20,56,comb
-57,Биномиальные коэффициенты,,,http://e-maxx.ru/algo/binomial_coeff,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/veWlgAMkQEs/,Сочетания,16,21,57,comb
-58,Перебор комбинаторных объектов,http://informatics.mccme.ru/py-source/source/dir/240-367,,http://e-maxx.ru/algo/generating_combinations,Сочетания,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/aram0M3qSbM/,Размещения с повторениями,16,22,58,comb
-59,Рекурсивный перебор,http://informatics.mccme.ru/py-source/source/dir/240-366,Перебор,,,,,,,,,,,16,23,59,rec
-60,Окружности,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,http://e-maxx.ru/algo/circle_line_intersection,Пересечение с прямой,,,,,,,,,17,11,60,geom
-61,Угол. atan2,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,,,,,,,,,,,17,12,61,geom
-62,Клеточная геометрия,http://informatics.mccme.ru/py-source/source/dir/240-445,,http://e-maxx.ru/algo/pick_grid_theorem,Формула Пика,,,,,,,,,17,13,62,geom
-63,Алгоритм Краскала,http://informatics.mccme.ru/py-source/source/dir/240-390,Минимальные каркасы,http://e-maxx.ru/algo/mst_kruskal,,,http://foxford.ru/wiki/informatika/postroenie-minimalnogo-ostovnogo-dereva,,,,,,,17,14,63,graph
-64,Многомерное ДП,http://informatics.mccme.ru/py-source/source/dir/240-351,Динамическое программирование,,,,,,,,,,,17,15,64,dp
-65,Восстановление ответа в ДП,http://informatics.mccme.ru/py-source/source/dir/240-351,Динамическое программирование,,,,,,,,,,,17,16,65,dp
-66,Динамическое программирование,http://informatics.mccme.ru/py-source/source/dir/240-397,ДП с одним параметром,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/pwO0r_qbkX8/,Общая схема решение задач ДП,17,17,66,dp
-67,START,,,,,,,,,,,,,17,18,67,start
-68,Сложность алгоритмов,,,,,,,,,,,,,17,19,68,alg
-69,"Полином, экспонента, логарифм",,,,,,,,,,,,,17,20,69,alg
-70,Множества. Формула включения-исключения,http://informatics.mccme.ru/py-source/source/dir/240-423,Пересечение множеств,http://informatics.mccme.ru/py-source/source/dir/240-457,,,,,,,,,,17,21,70,comb
-71,Гамильтонов цикл,http://informatics.mccme.ru/py-source/source/dir/240-446,,,,,http://foxford.ru/wiki/informatika/postroenie-gamiltonova-tsikla,,,,,,,17,23,71,rec
-72,Перебор с отсечениями,http://informatics.mccme.ru/py-source/source/dir/240-372,,,,,,,,,,,,17,24,72,rec
-73,Алгоритм Прима,http://informatics.mccme.ru/py-source/source/dir/240-390,Минимальные каркасы,http://e-maxx.ru/algo/mst_prim,,,http://foxford.ru/wiki/informatika/postroenie-minimalnogo-ostovnogo-dereva,,,,,,,18,13,73,graph
-74,Минимальные остовные деревья,http://informatics.mccme.ru/py-source/source/dir/240-390,,,,,,,,,,,,18,14,74,graph
-75,ДП в играх,http://informatics.mccme.ru/py-source/source/dir/240-415,,,,,http://foxford.ru/wiki/informatika/dvumernoe-dinamicheskoe-programmirovanie-igry,,http://foxford.ru/wiki/informatika/dvumernoe-dinamicheskoe-programmirovanie-igry,,,,,18,15,75,dp
-76,Игры и выигрышные стратегии,http://informatics.mccme.ru/py-source/source/dir/240-396,,http://e-maxx.ru/algo/games_on_graphs,,,,,,,,,,18,16,76,dp
-77,Рекурсия,http://informatics.mccme.ru/py-source/source/dir/240-347,,,,,,,,,,,,18,17,77,rec
-78,Поиск в массиве,http://informatics.mccme.ru/py-source/source/dir/240-335,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/Du70u7-gIsc/,,18,18,78,search
-79,Квадратичные сортировки,http://informatics.mccme.ru/py-source/source/dir/240-343,,,,,http://foxford.ru/wiki/informatika/kvadratichnye-sortirovki-v-python,,http://foxford.ru/wiki/informatika/kvadratichnye-sortirovki-v-python,,,http://sis.khashaev.ru/2013/august/c-prime/kBHwr_e_aAg/,Пузырьковая сортировка,18,19,79,sort
-80,Подсчет. Сортировка подсчетом,,,,,,http://foxford.ru/wiki/informatika/sortirovka-podschetom,,http://foxford.ru/wiki/informatika/sortirovka-podschetom,,,http://sis.khashaev.ru/2013/august/c-prime/Prz7x1bkW5Y/,,18,20,80,sort
-81,Алгоритм Форда-Фалкерсона,http://informatics.mccme.ru/py-source/source/dir/240-392,,,,,http://foxford.ru/wiki/informatika/algoritm-forda-bellmana,,,,,,,19,12,81,graph
-82,Алгоритм Дейкстры,http://informatics.mccme.ru/py-source/source/dir/240-341,,http://e-maxx.ru/algo/dijkstra,,,http://foxford.ru/wiki/informatika/algoritm-deykstry,,http://foxford.ru/wiki/informatika/algoritm-deykstry,,,,,19,14,82,graph
-83,Поиск в ширину,http://informatics.mccme.ru/py-source/source/dir/240-386,,http://e-maxx.ru/algo/bfs,,,http://foxford.ru/wiki/informatika/algoritm-poiska-v-shirinu,,http://foxford.ru/wiki/informatika/algoritm-poiska-v-shirinu,,,http://sis.khashaev.ru/2013/august/c-prime/YKxe2ZFVkHQ/,Волновой алгоритм,19,15,83,graph
-84,Кратчайшие пути в графе,http://informatics.mccme.ru/py-source/source/dir/240-338,,,,,,,,,,,,19,16,84,graph
-85,Хранение графа,http://informatics.mccme.ru/py-source/source/dir/240-388,,,,,http://foxford.ru/wiki/informatika/hranenie-grafa-spiski-smezhnyh-vershin,Списки смежных вершин,http://foxford.ru/wiki/informatika/hranenie-grafa-spiski-smezhnyh-vershin,Списки смежных вершин,,http://sis.khashaev.ru/2013/august/c-prime/-4ydd-Gj9GY/,Неявное задание,19,17,85,graph
-86,Однопроходные алгоритмы,,,,,,,,,,,,,19,18,86,search
-87,Бинарный поиск в упорядоченном массиве,http://informatics.mccme.ru/py-source/source/dir/240-337,,,,,http://foxford.ru/wiki/informatika/binarnyy-poisk-v-massive-na-python-dva-fiktivnyh-elementa,,http://foxford.ru/wiki/informatika/binarnyy-poisk-v-massive-na-python-dva-fiktivnyh-elementa,,,http://sis.khashaev.ru/2013/august/c-prime/5znFHMc5au4/,Идея,19,19,87,search
-88,Быстрая сортировка,http://informatics.mccme.ru/py-source/source/dir/240-416,,,,,http://foxford.ru/wiki/informatika/bystraya-sortirovka-hoara,,http://foxford.ru/wiki/informatika/bystraya-sortirovka-hoara,,,http://sis.khashaev.ru/2008/august/b-prime/zw_JpBA5_rg/,,19,20,88,sort
-89,Сортировка слиянием,http://informatics.mccme.ru/py-source/source/dir/240-417,,,,,http://foxford.ru/wiki/informatika/sortirovka-sliyaniem,,http://foxford.ru/wiki/informatika/sortirovka-sliyaniem,,,http://sis.khashaev.ru/2013/august/c-prime/leTOBaT9mSw/,,19,21,89,sort
-90,Паросочетания,http://informatics.mccme.ru/py-source/source/dir/240-432,,,,,,,,,,,,20,11,90,graph
-91,Потоки,http://informatics.mccme.ru/py-source/source/dir/240-391,,,,,,,,,,,,20,12,91,graph
-92,Алгоритм Форда-Беллмана,http://informatics.mccme.ru/py-source/source/dir/240-389,,http://e-maxx.ru/algo/ford_bellman,,,http://foxford.ru/wiki/informatika/algoritm-forda-bellmana,,,,,,,20,13,92,graph
-93,Алгоритм Флойда,http://informatics.mccme.ru/py-source/source/dir/240-373,,http://e-maxx.ru/algo/floyd_warshall_algorithm,,,http://foxford.ru/wiki/informatika/algoritm-floyda,,http://foxford.ru/wiki/informatika/algoritm-floyda,,,,,20,14,93,graph
-94,Эйлеров цикл,http://informatics.mccme.ru/py-source/source/dir/240-444,,http://e-maxx.ru/algo/euler_path,,,,,,,,,,20,15,94,graph
-95,Поиск в глубину,http://informatics.mccme.ru/py-source/source/dir/240-387,,http://e-maxx.ru/algo/dfs,,,http://foxford.ru/wiki/informatika/algoritm-poiska-v-glubinu,,http://foxford.ru/wiki/informatika/algoritm-poiska-v-glubinu,,,http://sis.khashaev.ru/2013/august/c-prime/aX2vxp4NeqI/,Идея,20,16,95,graph
-96,Другие линейные алгоритмы,,,,,,,,,,,,,20,17,96,search
-97,Вещественный бинарный поиск,http://informatics.mccme.ru/py-source/source/dir/240-438,,,,,,,,,,,,20,18,97,search
-98,Бинарный поиск по ответу,http://informatics.mccme.ru/py-source/source/dir/240-429,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/scSO8aMDGYQ/,,20,19,98,search
-99,Порядковые статистики,http://informatics.mccme.ru/py-source/source/dir/240-431,,http://e-maxx.ru/algo/kth_order_statistics,,,,,,,,http://sis.khashaev.ru/2008/august/b-prime/itjUmHNrnA8/,,20,20,99,sort
-100,Топологическая сортировка,,,http://e-maxx.ru/algo/topological_sort,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/RXGVcvGcKuE/,Топологическая сортировка,21,16,100,graph
-101,Сканирующая прямая,http://informatics.mccme.ru/py-source/source/dir/240-430,,http://e-maxx.ru/algo/triangles_union,Площадь объединения треугольников,,,,,,,,,21,17,101,search
-102,Метод двух указателей,http://informatics.mccme.ru/py-source/source/dir/240-454,,,,,,,,,,,,21,18,102,search
-103,Тернарный поиск,http://informatics.mccme.ru/py-source/source/dir/240-452,,http://e-maxx.ru/algo/ternary_search,,,,,,,,,,21,19,103,search
-3,Система независимых множеств,,,http://e-maxx.ru/algo/dsu,,,,,,,,,,,,,
-25,Системы счисления,,,,,,http://foxford.ru/wiki/informatika/dvoichnaya-sistema-schisleniya,,http://foxford.ru/wiki/informatika/dvoichnaya-sistema-schisleniya,,,,,,,,
-25,Системы счисления,,,,,,http://foxford.ru/wiki/informatika/perevod-dvoichnyh-chisel-v-drugie-sistemy-schisleniya,Перевод двоичных чисел в другие системы счисления,http://foxford.ru/wiki/informatika/perevod-dvoichnyh-chisel-v-drugie-sistemy-schisleniya,Перевод двоичных чисел в другие системы счисления,,,,,,,
-25,Системы счисления,,,,,,http://foxford.ru/wiki/informatika/slozhenie-vychitanie-i-umnozhenie-dvoichnyh-chisel,Операции с двоичными числами,http://foxford.ru/wiki/informatika/slozhenie-vychitanie-i-umnozhenie-dvoichnyh-chisel,Операции с двоичными числами,,,,,,,
-25,Системы счисления,,,,,,http://foxford.ru/wiki/informatika/pozitsionnye-sistemy-schisleniya,Перевод в десятичную систему,http://foxford.ru/wiki/informatika/pozitsionnye-sistemy-schisleniya,Перевод в десятичную систему,,,,,,,
-32,Многоугольники. Площадь многоугольников,,,http://e-maxx.ru/algo/pt_in_polygon,Принадлежность точки выпуклому многоугольнику,,,,,,,,,,,,
-37,ДП с двумя параметрами,,,,,,http://foxford.ru/wiki/informatika/dvumernoe-dinamicheskoe-programmirovanie-tablitsy,Таблицы,http://foxford.ru/wiki/informatika/dvumernoe-dinamicheskoe-programmirovanie-tablitsy,Таблицы,,http://sis.khashaev.ru/2013/august/c-prime/uUVwRJcTbU4/,Наибольшая общая подпоследовательность: восстановление ответа,,,,
-37,ДП с двумя параметрами,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/KQcyVlXYnGA/,Наибольшая возрастющая подпоследовательность: сведение к НОП,,,,
-39,Очередь,,,,,,http://foxford.ru/wiki/informatika/ochered-na-python,Python,http://foxford.ru/wiki/informatika/ochered-na-python,Python,,http://sis.khashaev.ru/2013/august/c-prime/NBHz-g-OVwg/,Реализация на кольцевом списке,,,,
-40,Алгоритм Евклида,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/2MBSsJ0TEMg/,,,,,
-47,Взаимное расположение точек и прямых,,,http://e-maxx.ru/algo/lines_intersection,Точка пересечения прямых,,,,,,,,,,,,
-47,Взаимное расположение точек и прямых,,,http://e-maxx.ru/algo/segments_intersection,Точка пересечения отрезков,,,,,,,,,,,,
-52,Одномерное ДП,,,,,,http://foxford.ru/wiki/informatika/odnomernoe-dinamicheskoe-programmirovanie-kolichestvo-sposobov,Количество способов,http://foxford.ru/wiki/informatika/odnomernoe-dinamicheskoe-programmirovanie-kolichestvo-sposobov,Количество способов,,http://sis.khashaev.ru/2013/august/c-prime/Rh9RHwH5Vj8/,Задача о кузнечике,,,,
-58,Перебор комбинаторных объектов,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/bwnRmaaYXMg/,Подмножества,,,,
-58,Перебор комбинаторных объектов,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/veWlgAMkQEs/,Сочетания,,,,
-60,Окружности,,,http://e-maxx.ru/algo/circles_intersection,Пересечение двух окружностей,,,,,,,,,,,,
-60,Окружности,,,http://e-maxx.ru/algo/circle_tangents,Общая касательная к двум окружностям,,,,,,,,,,,,
-63,Алгоритм Краскала,,,http://e-maxx.ru/algo/mst_kruskal_with_dsu,Алгоритм Краскала с СНМ,,,,,,,,,,,,
-66,Динамическое программирование,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/H5wxrKFMTQ4/,Восстановление ответа,,,,
-70,Множества. Формула включения-исключения,http://informatics.mccme.ru/py-source/source/dir/240-457,Множества,http://e-maxx.ru/algo/inclusion_exclusion_principle,,,,,,,,,,,,,
-78,Поиск в массиве,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/YSjhrvKHo8Y/,"Максимум, второй максимум",,,,
-79,Квадратичные сортировки,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/gZGwKXwjffg/,Сортировка выбором максимума,,,,
-79,Квадратичные сортировки,,,,,,,,,,,,,,,,
-80,Подсчет. Сортировка подсчетом,http://informatics.mccme.ru/py-source/source/dir/240-424,,,,,http://foxford.ru/wiki/informatika/porazryadnaya-sortirovka,Поразрядная сортировка,http://foxford.ru/wiki/informatika/porazryadnaya-sortirovka,Поразрядная сортировка,,http://sis.khashaev.ru/2008/august/b-prime/kVcmMxhr-CI/,,,,,
-80,Подсчет. Сортировка подсчетом,,,,,,,,,,,,,,,,
-83,Поиск в ширину,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/RL0BGVJxCKo/,Сложность волнового алгоритма,,,,
-83,Поиск в ширину,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/sX5KYJd3GRY/,Восстановление пути,,,,
-83,Поиск в ширину,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/cUTOEaG36Sw/,Клеточные лабиринты,,,,
-85,Хранение графа,,,,,,http://foxford.ru/wiki/informatika/hranenie-grafa-spisok-reber,Список ребер,http://foxford.ru/wiki/informatika/hranenie-grafa-spisok-reber,Список ребер,,,,,,,
-85,Хранение графа,,,,,,http://foxford.ru/wiki/informatika/hranenie-grafa-matritsa-smezhnosti,Матрица смежности,http://foxford.ru/wiki/informatika/hranenie-grafa-matritsa-smezhnosti,Матрица смежности,,,,,,,
-87,Бинарный поиск в упорядоченном массиве,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/sPx1gETM7Eo/,Инварианты,,,,
-87,Бинарный поиск в упорядоченном массиве,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/w3nbKMuZqfg/,Левый и правый бинпоиск,,,,
-,,,,,,,,,,,,,,,,,
-88,Быстрая сортировка,,,,,,http://foxford.ru/wiki/informatika/bystraya-sortirovka-hoara-python,Python,http://foxford.ru/wiki/informatika/bystraya-sortirovka-hoara-python,Python,,,,,,,
-89,Сортировка слиянием,,,,,,,,,,,http://sis.khashaev.ru/2008/august/b-prime/itjUmHNrnA8/,,,,,
-89,Сортировка слиянием,,,,,,,,,,,http://sis.khashaev.ru/2008/august/b-prime/7JoWmr6_ljM/,,,,,
-95,Поиск в глубину,,,http://e-maxx.ru/algo/connected_components,Поиск компонент связности,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/oWc-uhuH0oo/,Реализация для связного графа,,,,
-95,Поиск в глубину,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/xZdaTdiidkk/,Реализация для несвязного графа,,,,
-95,Поиск в глубину,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/EJJ3eqOcHe8/,Сложность алгоритма,,,,
-95,Поиск в глубину,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/NzFUZRNA3n8/,Поиск цикла,,,,
-95,Поиск в глубину,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/yPnelTAnZNE/,Проверка на двудольность,,,,
-98,Бинарный поиск по ответу,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/b2KZPLYqbzY/,Задача о двух ксероксах,,,,
-98,Бинарный поиск по ответу,,,,,,,,,,,http://sis.khashaev.ru/2008/august/b-prime/3pVREiuGwQ8/,Задача о распиле досок,,,,
-98,Бинарный поиск по ответу,,,,,,,,,,,http://sis.khashaev.ru/2008/august/b-prime/YzsVQRESmeE/,Задача о фонтанах,,,,
-101,Сканирующая прямая,,,http://e-maxx.ru/algo/intersecting_segments,Поиск пары пересекающихся отрезков,,,,,,,,,,,,
--,Квадродерево,,,,,,,,,,,,,,,,
--,Обратный элемент в кольце по модулю,,,http://e-maxx.ru/algo/reverse_element,,,,,,,,,,,,,
--,Код Грея,,,http://e-maxx.ru/algo/gray_code,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
-,Cовместная сортировка массивов; сортировка записей,http://informatics.mccme.ru/py-source/source/dir/240-359,,,,,http://foxford.ru/wiki/informatika/sinhronnaya-sortirovka-massivov,,http://foxford.ru/wiki/informatika/sinhronnaya-sortirovka-massivov,,,,,,,,
-,Рекуррентные последовательности,http://informatics.mccme.ru/py-source/source/dir/240-394,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
-,Наименьший общий предок,http://informatics.mccme.ru/py-source/source/dir/240-16188,,,,,,,,,,,,,,,
-,Функция Гранди,http://informatics.mccme.ru/py-source/source/dir/240-443,,http://e-maxx.ru/algo/sprague_grundy,,,,,,,,,,,,,
-,Метод градиентного спуска,http://informatics.mccme.ru/py-source/source/dir/240-17890,,,,,,,,,,,,,,,
-,?Обработка текста,http://informatics.mccme.ru/py-source/source/dir/240-435,,,,,,,,,,,,,,,
-,?Дата и время,http://informatics.mccme.ru/py-source/source/dir/240-451,,,,,,,,,,,,,,,
-,Частичные суммы,,,,,,,,,,,,,,,,
-,Сжатые таблиы,,,,,,,,,,,,,,,,
-,Бор,http://informatics.mccme.ru/py-source/source/dir/240-449,,,,,,,,,,,,,,,
-,"Декартово дерево (treap, дерамида)",http://informatics.mccme.ru/py-source/source/dir/240-16186,,http://e-maxx.ru/algo/treap,,,,,,,,,,,,,
-,Хеш,http://informatics.mccme.ru/py-source/source/dir/240-448,,http://e-maxx.ru/algo/string_hashes,Применение к задачам на строки,,,,,,,,,,,,
-,Вероятность,http://informatics.mccme.ru/py-source/source/dir/240-18055,,,,,,,,,,,,,,,
-,Функция Эйлера,,,http://e-maxx.ru/algo/euler_function,,,,,,,,,,,,,
-,Расширенный алгоритм Евклида,,,http://e-maxx.ru/algo/extended_euclid_algorithm,,,http://foxford.ru/wiki/informatika/rasshirennyy-algoritm-evklida,,,,,,,,,,
-,Числа Фибоначчи,,,http://e-maxx.ru/algo/fibonacci_numbers,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/38WrqoMIGdk/,,,,,
-,sqrt-декомпозиция (корневая оптимизация),,,http://e-maxx.ru/algo/sqrt_decomposition,,,,,,,,,,,,,
-,дерево Фенвика,,,http://e-maxx.ru/algo/fenwick_tree,,,,,,,,,,,,,
-,RMQ,http://informatics.mccme.ru/py-source/source/dir/240-420,"Дерево отрезков, RMQ, RSQ",http://e-maxx.ru/algo/rmq,,,,,,,,,,,,,
+,,informatics задачи - ссылка,informatics задачи - название,e-maxx-теория ссылки,e-maxx теория - название,,фоксфорд теория - ссылка,фоксфорд теория - заголовок,фоксфорд видео - ссылка,фоксфорд видео - заголовок,,ЛКШ видео - ссылка,ЛКШ видео заголовок,,,unique id,color,habr - ссылка,habr - заголовок
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,,15,16,17,18,19
+1,Регулярные выражения,,,,,,,,,,,,,12,13,1,str,http://habrahabr.ru/post/115825/,
+2,Разбор выражений,,,http://e-maxx.ru/algo/expressions_parsing,,,http://foxford.ru/wiki/informatika/obratnaya-polskaya-notatsiya,,http://foxford.ru/wiki/informatika/obratnaya-polskaya-notatsiya,,,,,12,14,2,str,,
+3,Система независимых множеств,http://informatics.mccme.ru/py-source/source/dir/240-428,,http://e-maxx.ru/algo/mst_kruskal_with_dsu,Алгоритм Краскала с СНМ,,,,,,,,,12,15,3,data,http://habrahabr.ru/post/104772/,
+4,Сортировка кучей,http://informatics.mccme.ru/py-source/source/dir/240-350,Куча,,,,,,,,,,,12,16,4,data,http://habrahabr.ru/post/112222/,
+5,Очередь с приоритетами,http://informatics.mccme.ru/py-source/source/dir/240-350,Куча,,,,,,,,,,,12,17,5,data,,
+6,ДО с изменением элемента,http://informatics.mccme.ru/py-source/source/dir/240-420,"Дерево отрезков, RMQ, RSQ",http://e-maxx.ru/algo/segment_tree,Дерево отрезков,,,,,,,,,12,18,6,data,http://habrahabr.ru/post/115026/,
+7,ДО с изменением на интервале,http://informatics.mccme.ru/py-source/source/dir/240-420,"Дерево отрезков, RMQ, RSQ",http://e-maxx.ru/algo/segment_tree,Дерево отрезков,,,,,,,,,12,19,7,data,,
+8,Дерево поиска,http://informatics.mccme.ru/py-source/source/dir/240-419,,,,,,,,,,,,12,20,8,data,http://habrahabr.ru/post/145388/,Рандомизированное дерево поиска
+9,ДП по изломанному профилю,http://informatics.mccme.ru/py-source/source/dir/240-426,ДП по профилю,,,,,,,,,,,13,13,9,dp,http://habrahabr.ru/post/191498/,Динамическое программирование
+10,ДП по профилю,http://informatics.mccme.ru/py-source/source/dir/240-426,,http://e-maxx.ru/algo/profile_dynamics,,,,,,,,,,13,14,10,dp,http://habrahabr.ru/post/191498/,Динамическое программирование
+11,Конечные автоматы,,,,,,,,,,,,,13,15,11,str,http://habrahabr.ru/post/141503/,
+12,Поиск подстроки в строке,http://informatics.mccme.ru/py-source/source/dir/240-434,,,,,,,,,,,,13,16,12,str,http://habrahabr.ru/post/113266/,
+13,Куча,http://informatics.mccme.ru/py-source/source/dir/240-350,,http://e-maxx.ru/algo/randomized_heap,Рандомизированная куча,,http://foxford.ru/wiki/informatika/kucha-heap,,http://foxford.ru/wiki/informatika/kucha-heap,,,,,13,17,13,data,http://habrahabr.ru/post/112222/,
+14,Дерево отрезков,http://informatics.mccme.ru/py-source/source/dir/240-420,,http://e-maxx.ru/algo/segment_tree,,,,,,,,,,13,18,14,data,http://habrahabr.ru/post/115026/,
+15,Остатки,http://informatics.mccme.ru/py-source/source/dir/240-433,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/BIwzyPBgU6Y/,,13,19,15,nums,,
+16,Быстрое преобразование Фурье,http://informatics.mccme.ru/py-source/source/dir/240-16152,,http://e-maxx.ru/algo/fft_multiply,,,,,,,,,,13,20,16,nums,http://habrahabr.ru/post/113642/,Умножение многочленов
+17,Уравнение прямой,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,http://e-maxx.ru/algo/segment_to_line,,,,,,,,,,14,10,17,eq,,
+18,Решение систем линейных уравнений,,,http://e-maxx.ru/algo/linear_systems_gauss,Метод Гаусса,,,,,,,,,14,11,18,eq,,
+19,"Решение линейных, квадратных уравнений",,,,,,,,,,,,,14,12,19,eq,,
+20,ДП на деревьях,http://informatics.mccme.ru/py-source/source/dir/240-425,ДП на графах,,,,,,,,,,,14,13,20,dp,http://habrahabr.ru/post/191498/,Динамическое программирование
+21,ДП по подмножествам,http://informatics.mccme.ru/py-source/source/dir/240-447,,,,,,,,,,,,14,14,21,dp,http://habrahabr.ru/post/191498/,Динамическое программирование
+22,ДП по подотрезкам,http://informatics.mccme.ru/py-source/source/dir/240-400,,,,,,,,,,,,14,15,22,dp,http://habrahabr.ru/post/112386/,
+23,Связный список,http://informatics.mccme.ru/py-source/source/dir/240-439,,,,,,,,,,,,14,16,23,data,http://habrahabr.ru/post/247053/,Сортировка на односвязном списке
+24,Дек,http://informatics.mccme.ru/py-source/source/dir/240-363,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/DgGSq4IKOA4/,collections.deque в Python,14,17,24,data,http://habrahabr.ru/post/200560/,BFS 0-1
+25,Системы счисления,http://informatics.mccme.ru/py-source/source/dir/240-357,,,,,http://foxford.ru/wiki/informatika/operatsii-v-pozitsionnyh-sistemah-schisleniya,Операции в позиционных системах счисления,,,,,,14,18,25,nums,http://habrahabr.ru/post/124395/,
+26,"Длинная ""арифметика""",http://informatics.mccme.ru/py-source/source/dir/240-383,,,,,,,,,,,,14,19,26,nums,http://habrahabr.ru/post/172285/,Реализация на С++
+27,Быстрое возведение в степень,http://informatics.mccme.ru/py-source/source/dir/240-455,,http://e-maxx.ru/algo/binary_pow,,,,,,,,,,14,20,27,nums,http://habrahabr.ru/post/205318/,
+28,Поиск следующего комбинаторного объекта,http://informatics.mccme.ru/py-source/source/dir/240-367,Комбинаторные структуры,,,,,,,,,,,14,21,28,comb,,
+29,Поиск КО по номеру и номера по объекту,http://informatics.mccme.ru/py-source/source/dir/240-453,,,,,,,,,,,,14,22,29,comb,,
+30,Алгоритм Грехэма,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,http://e-maxx.ru/algo/convex_hull_graham,,,,,,,,,,14,9,30,geom,http://habrahabr.ru/post/144921/,
+31,Выпуклая оболочка,http://informatics.mccme.ru/py-source/source/dir/240-406,,,,,,,,,,,,15,10,31,geom,http://habrahabr.ru/post/144921/,
+32,Многоугольники. Площадь многоугольников,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,http://e-maxx.ru/algo/polygon_area,,,,,,,,,,15,11,32,geom,,
+33,Векторное произведение. Площадь треугольника,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,http://e-maxx.ru/algo/euler_path,,,,,,,,,,15,12,33,geom,,
+34,Векторы и декартовы координаты,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,,,,,,,,,,,15,13,34,geom,,
+35,Теория расписаний,http://informatics.mccme.ru/py-source/source/dir/240-18213,,,,,,,,,,,,15,14,35,dp,,
+36,Задача о рюкзаке,http://informatics.mccme.ru/py-source/source/dir/240-413,,,,,http://foxford.ru/wiki/informatika/algoritm-ukladki-ryukzaka,,http://foxford.ru/wiki/informatika/algoritm-ukladki-ryukzaka,,,,,15,15,36,dp,,
+37,ДП с двумя параметрами,http://informatics.mccme.ru/py-source/source/dir/240-401,,http://e-maxx.ru/algo/longest_increasing_subseq_log,Наибольшая возрастающая последовательность,,http://foxford.ru/wiki/informatika/naibolshaya-obschaya-podposledovatelnost,Наибольшая общая подпоследовательность,http://foxford.ru/wiki/informatika/naibolshaya-obschaya-podposledovatelnost,Наибольшая общая подпоследовательность,,http://sis.khashaev.ru/2013/august/c-prime/0BtGJkm84Ow/,Наибольшая общая подпоследовательность,15,16,37,dp,http://habrahabr.ru/post/191498/,Динамическое программирование
+38,Стек,http://informatics.mccme.ru/py-source/source/dir/240-362,,,,,http://foxford.ru/wiki/informatika/stek,,http://foxford.ru/wiki/informatika/stek,,,,,15,17,38,data,http://habrahabr.ru/post/113585/,Персистентный стек
+39,Очередь,http://informatics.mccme.ru/py-source/source/dir/240-361,,,,,http://foxford.ru/wiki/informatika/ochered,,,,,http://sis.khashaev.ru/2013/august/c-prime/fdRbuT-tLYA/,,15,18,39,data,http://habrahabr.ru/post/113585/,Персистентная очередь
+40,Алгоритм Евклида,http://informatics.mccme.ru/py-source/source/dir/240-355,,http://e-maxx.ru/algo/euclid_algorithm,,,http://foxford.ru/wiki/informatika/algoritm-evklida-python,,http://foxford.ru/wiki/informatika/algoritm-evklida-python,,,http://sis.khashaev.ru/2013/august/c-prime/lwUfAa0eCdo/,НОД и НОК,15,19,40,nums,http://habrahabr.ru/post/205106/,Сравнение разных алгоритмов вычисления НОД
+41,Решето Эратосфена,,,http://e-maxx.ru/algo/eratosthenes_sieve,,,http://foxford.ru/wiki/informatika/resheto-eratosfena,,http://foxford.ru/wiki/informatika/resheto-eratosfena,,,http://sis.khashaev.ru/2013/august/c-prime/BIwzyPBgU6Y/,,15,20,41,nums,http://habrahabr.ru/post/91112/,
+42,Количество комбинаторных объектов,,,,,,http://foxford.ru/wiki/informatika/podschet-chisla-kombinatornyh-posledovatelnostey,,http://foxford.ru/wiki/informatika/podschet-chisla-kombinatornyh-posledovatelnostey,,,,,15,21,42,comb,,
+43,Перебор,,,,,,,,,,,,,15,22,43,rec,,
+44,Перебор вложенными циклами,http://informatics.mccme.ru/py-source/source/dir/240-385,Простые задачи на перебор,,,,http://foxford.ru/wiki/informatika/polnyy-perebor-s-ispolzovaniem-tsiklov,,http://foxford.ru/wiki/informatika/polnyy-perebor-s-ispolzovaniem-tsiklov,,,,,15,23,44,rec,,
+45,Алгоритм Джарвиса,http://informatics.mccme.ru/py-source/source/dir/240-407,Многоугольники. Выпуклые оболочки,,,,,,,,,,,16,9,45,geom,http://habrahabr.ru/post/144921/,
+46,Лучи и отрезки,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,,,,,,,,,,,16,10,46,geom,,
+47,Взаимное расположение точек и прямых,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,http://e-maxx.ru/algo/segments_intersection_checking,Пересечение отрезков,,,,,,,,,16,11,47,geom,,
+48,Скалярное произведение,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,,,,,,,,,,,16,12,48,geom,,
+49,Вещественные числа,http://informatics.mccme.ru/py-source/source/dir/240-414,,,,,,,,,,,,16,13,49,geom,http://habrahabr.ru/company/xakep/blog/257897/,
+50,Жадные алгоритмы,http://informatics.mccme.ru/py-source/source/dir/240-427,,,,,,,,,,,,16,14,50,dp,,
+51,ДП на таблицах,http://informatics.mccme.ru/py-source/source/dir/240-399,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/87h-mqcg1-A/,,16,15,51,dp,http://habrahabr.ru/post/191498/,Динамическое программирование
+52,Одномерное ДП,http://informatics.mccme.ru/py-source/source/dir/240-397,,,,,http://foxford.ru/wiki/informatika/odnomernoe-dinamicheskoe-programmirovanie-nailuchshiy-sposob,Наилучший способ,http://foxford.ru/wiki/informatika/odnomernoe-dinamicheskoe-programmirovanie-nailuchshiy-sposob,Наилучший способ,,http://sis.khashaev.ru/2013/august/c-prime/38WrqoMIGdk/,Рекурсия с запоминанием. Числа Фибоначчи,16,16,52,dp,http://habrahabr.ru/post/191498/,Динамическое программирование
+53,Структуры данных,,,,,,,,,,,,,16,17,53,data,http://habrahabr.ru/post/232009/,
+54,Проверка на простоту,http://informatics.mccme.ru/py-source/source/dir/240-384,,,,,http://foxford.ru/wiki/informatika/proverka-prostoty-pereborom-deliteley,,http://foxford.ru/wiki/informatika/proverka-prostoty-pereborom-deliteley,,,http://sis.khashaev.ru/2013/august/c-prime/lK2k26ATt38/,,16,18,54,nums,,
+55,Разложение числа на простые множители,http://informatics.mccme.ru/py-source/source/dir/240-384,,,,,http://foxford.ru/wiki/informatika/faktorizatsiya-pereborom-deliteley,,http://foxford.ru/wiki/informatika/faktorizatsiya-pereborom-deliteley,,,http://sis.khashaev.ru/2013/august/c-prime/RdxW0PTgv2s/,,16,19,55,nums,,
+56,Основные правила комбинаторики,http://informatics.mccme.ru/py-source/source/dir/240-18189,,,,,,,,,,,,16,20,56,comb,,
+57,Биномиальные коэффициенты,,,http://e-maxx.ru/algo/binomial_coeff,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/veWlgAMkQEs/,Сочетания,16,21,57,comb,,
+58,Перебор комбинаторных объектов,http://informatics.mccme.ru/py-source/source/dir/240-367,,http://e-maxx.ru/algo/generating_combinations,Сочетания,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/aram0M3qSbM/,Размещения с повторениями,16,22,58,comb,,
+59,Рекурсивный перебор,http://informatics.mccme.ru/py-source/source/dir/240-366,Перебор,,,,,,,,,,,16,23,59,rec,,
+60,Окружности,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,http://e-maxx.ru/algo/circle_line_intersection,Пересечение с прямой,,,,,,,,,17,11,60,geom,,
+61,Угол. atan2,http://informatics.mccme.ru/py-source/source/dir/240-406,Элементарная геометрия,,,,,,,,,,,17,12,61,geom,,
+62,Клеточная геометрия,http://informatics.mccme.ru/py-source/source/dir/240-445,,http://e-maxx.ru/algo/pick_grid_theorem,Формула Пика,,,,,,,,,17,13,62,geom,,
+63,Алгоритм Краскала,http://informatics.mccme.ru/py-source/source/dir/240-390,Минимальные каркасы,http://e-maxx.ru/algo/mst_kruskal,,,http://foxford.ru/wiki/informatika/postroenie-minimalnogo-ostovnogo-dereva,,,,,,,17,14,63,graph,,
+64,Многомерное ДП,http://informatics.mccme.ru/py-source/source/dir/240-351,Динамическое программирование,,,,,,,,,,,17,15,64,dp,,
+65,Восстановление ответа в ДП,http://informatics.mccme.ru/py-source/source/dir/240-351,Динамическое программирование,,,,,,,,,,,17,16,65,dp,,
+66,Динамическое программирование,http://informatics.mccme.ru/py-source/source/dir/240-397,ДП с одним параметром,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/pwO0r_qbkX8/,Общая схема решение задач ДП,17,17,66,dp,,
+67,START,,,,,,,,,,,,,17,18,67,start,,
+68,Сложность алгоритмов,,,,,,,,,,,,,17,19,68,alg,http://habrahabr.ru/post/104219/,
+69,"Полином, экспонента, логарифм",,,,,,,,,,,,,17,20,69,alg,,
+70,Множества. Формула включения-исключения,http://informatics.mccme.ru/py-source/source/dir/240-423,Пересечение множеств,http://informatics.mccme.ru/py-source/source/dir/240-457,,,,,,,,,,17,21,70,comb,,
+71,Гамильтонов цикл,http://informatics.mccme.ru/py-source/source/dir/240-446,,,,,http://foxford.ru/wiki/informatika/postroenie-gamiltonova-tsikla,,,,,,,17,23,71,rec,,
+72,Перебор с отсечениями,http://informatics.mccme.ru/py-source/source/dir/240-372,,,,,,,,,,,,17,24,72,rec,http://habrahabr.ru/post/190850/,Разные оптимизации перебора
+73,Алгоритм Прима,http://informatics.mccme.ru/py-source/source/dir/240-390,Минимальные каркасы,http://e-maxx.ru/algo/mst_prim,,,http://foxford.ru/wiki/informatika/postroenie-minimalnogo-ostovnogo-dereva,,,,,,,18,13,73,graph,,
+74,Минимальные остовные деревья,http://informatics.mccme.ru/py-source/source/dir/240-390,,,,,,,,,,,,18,14,74,graph,,
+75,ДП в играх,http://informatics.mccme.ru/py-source/source/dir/240-415,,,,,http://foxford.ru/wiki/informatika/dvumernoe-dinamicheskoe-programmirovanie-igry,,http://foxford.ru/wiki/informatika/dvumernoe-dinamicheskoe-programmirovanie-igry,,,,,18,15,75,dp,,
+76,Игры и выигрышные стратегии,http://informatics.mccme.ru/py-source/source/dir/240-396,,http://e-maxx.ru/algo/games_on_graphs,,,,,,,,,,18,16,76,dp,,
+77,Рекурсия,http://informatics.mccme.ru/py-source/source/dir/240-347,,,,,,,,,,,,18,17,77,rec,http://habrahabr.ru/post/124856/,
+78,Поиск в массиве,http://informatics.mccme.ru/py-source/source/dir/240-335,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/Du70u7-gIsc/,,18,18,78,search,,
+79,Квадратичные сортировки,http://informatics.mccme.ru/py-source/source/dir/240-343,,,,,http://foxford.ru/wiki/informatika/kvadratichnye-sortirovki-v-python,,http://foxford.ru/wiki/informatika/kvadratichnye-sortirovki-v-python,,,http://sis.khashaev.ru/2013/august/c-prime/kBHwr_e_aAg/,Пузырьковая сортировка,18,19,79,sort,,
+80,Подсчет. Сортировка подсчетом,,,,,,http://foxford.ru/wiki/informatika/sortirovka-podschetom,,http://foxford.ru/wiki/informatika/sortirovka-podschetom,,,http://sis.khashaev.ru/2013/august/c-prime/Prz7x1bkW5Y/,,18,20,80,sort,,
+81,Алгоритм Форда-Фалкерсона,http://informatics.mccme.ru/py-source/source/dir/240-392,,,,,http://foxford.ru/wiki/informatika/algoritm-forda-bellmana,,,,,,,19,12,81,graph,,
+82,Алгоритм Дейкстры,http://informatics.mccme.ru/py-source/source/dir/240-341,,http://e-maxx.ru/algo/dijkstra,,,http://foxford.ru/wiki/informatika/algoritm-deykstry,,http://foxford.ru/wiki/informatika/algoritm-deykstry,,,,,19,14,82,graph,http://habrahabr.ru/post/202314/,
+83,Поиск в ширину,http://informatics.mccme.ru/py-source/source/dir/240-386,,http://e-maxx.ru/algo/bfs,,,http://foxford.ru/wiki/informatika/algoritm-poiska-v-shirinu,,http://foxford.ru/wiki/informatika/algoritm-poiska-v-shirinu,,,http://sis.khashaev.ru/2013/august/c-prime/YKxe2ZFVkHQ/,Волновой алгоритм,19,15,83,graph,,
+84,Кратчайшие пути в графе,http://informatics.mccme.ru/py-source/source/dir/240-338,,,,,,,,,,,,19,16,84,graph,,
+85,Хранение графа,http://informatics.mccme.ru/py-source/source/dir/240-388,,,,,http://foxford.ru/wiki/informatika/hranenie-grafa-spiski-smezhnyh-vershin,Списки смежных вершин,http://foxford.ru/wiki/informatika/hranenie-grafa-spiski-smezhnyh-vershin,Списки смежных вершин,,http://sis.khashaev.ru/2013/august/c-prime/-4ydd-Gj9GY/,Неявное задание,19,17,85,graph,,
+86,Однопроходные алгоритмы,,,,,,,,,,,,,19,18,86,search,,
+87,Бинарный поиск в упорядоченном массиве,http://informatics.mccme.ru/py-source/source/dir/240-337,,,,,http://foxford.ru/wiki/informatika/binarnyy-poisk-v-massive-na-python-dva-fiktivnyh-elementa,,http://foxford.ru/wiki/informatika/binarnyy-poisk-v-massive-na-python-dva-fiktivnyh-elementa,,,http://sis.khashaev.ru/2013/august/c-prime/5znFHMc5au4/,Идея,19,19,87,search,,
+88,Быстрая сортировка,http://informatics.mccme.ru/py-source/source/dir/240-416,,,,,http://foxford.ru/wiki/informatika/bystraya-sortirovka-hoara,,http://foxford.ru/wiki/informatika/bystraya-sortirovka-hoara,,,http://sis.khashaev.ru/2008/august/b-prime/zw_JpBA5_rg/,,19,20,88,sort,,
+89,Сортировка слиянием,http://informatics.mccme.ru/py-source/source/dir/240-417,,,,,http://foxford.ru/wiki/informatika/sortirovka-sliyaniem,,http://foxford.ru/wiki/informatika/sortirovka-sliyaniem,,,http://sis.khashaev.ru/2013/august/c-prime/leTOBaT9mSw/,,19,21,89,sort,,
+90,Паросочетания,http://informatics.mccme.ru/py-source/source/dir/240-432,,,,,,,,,,,,20,11,90,graph,,
+91,Потоки,http://informatics.mccme.ru/py-source/source/dir/240-391,,,,,,,,,,,,20,12,91,graph,,
+92,Алгоритм Форда-Беллмана,http://informatics.mccme.ru/py-source/source/dir/240-389,,http://e-maxx.ru/algo/ford_bellman,,,http://foxford.ru/wiki/informatika/algoritm-forda-bellmana,,,,,,,20,13,92,graph,http://habrahabr.ru/post/201588/,
+93,Алгоритм Флойда,http://informatics.mccme.ru/py-source/source/dir/240-373,,http://e-maxx.ru/algo/floyd_warshall_algorithm,,,http://foxford.ru/wiki/informatika/algoritm-floyda,,http://foxford.ru/wiki/informatika/algoritm-floyda,,,,,20,14,93,graph,http://habrahabr.ru/post/119158/,
+94,Эйлеров цикл,http://informatics.mccme.ru/py-source/source/dir/240-444,,http://e-maxx.ru/algo/euler_path,,,,,,,,,,20,15,94,graph,,
+95,Поиск в глубину,http://informatics.mccme.ru/py-source/source/dir/240-387,,http://e-maxx.ru/algo/dfs,,,http://foxford.ru/wiki/informatika/algoritm-poiska-v-glubinu,,http://foxford.ru/wiki/informatika/algoritm-poiska-v-glubinu,,,http://sis.khashaev.ru/2013/august/c-prime/aX2vxp4NeqI/,Идея,20,16,95,graph,,
+96,Другие линейные алгоритмы,,,,,,,,,,,,,20,17,96,search,,
+97,Вещественный бинарный поиск,http://informatics.mccme.ru/py-source/source/dir/240-438,,,,,,,,,,,,20,18,97,search,,
+98,Бинарный поиск по ответу,http://informatics.mccme.ru/py-source/source/dir/240-429,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/scSO8aMDGYQ/,,20,19,98,search,,
+99,Порядковые статистики,http://informatics.mccme.ru/py-source/source/dir/240-431,,http://e-maxx.ru/algo/kth_order_statistics,,,,,,,,http://sis.khashaev.ru/2008/august/b-prime/itjUmHNrnA8/,,20,20,99,sort,,
+100,Топологическая сортировка,,,http://e-maxx.ru/algo/topological_sort,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/RXGVcvGcKuE/,Топологическая сортировка,21,16,100,graph,http://habrahabr.ru/post/100953/,
+101,Сканирующая прямая,http://informatics.mccme.ru/py-source/source/dir/240-430,,http://e-maxx.ru/algo/triangles_union,Площадь объединения треугольников,,,,,,,,,21,17,101,search,,
+102,Метод двух указателей,http://informatics.mccme.ru/py-source/source/dir/240-454,,,,,,,,,,,,21,18,102,search,,
+103,Тернарный поиск,http://informatics.mccme.ru/py-source/source/dir/240-452,,http://e-maxx.ru/algo/ternary_search,,,,,,,,,,21,19,103,search,,
+3,Система независимых множеств,,,http://e-maxx.ru/algo/dsu,,,,,,,,,,,,,,,
+25,Системы счисления,,,,,,http://foxford.ru/wiki/informatika/dvoichnaya-sistema-schisleniya,,http://foxford.ru/wiki/informatika/dvoichnaya-sistema-schisleniya,,,,,,,,,,
+25,Системы счисления,,,,,,http://foxford.ru/wiki/informatika/perevod-dvoichnyh-chisel-v-drugie-sistemy-schisleniya,Перевод двоичных чисел в другие системы счисления,http://foxford.ru/wiki/informatika/perevod-dvoichnyh-chisel-v-drugie-sistemy-schisleniya,Перевод двоичных чисел в другие системы счисления,,,,,,,,,
+25,Системы счисления,,,,,,http://foxford.ru/wiki/informatika/slozhenie-vychitanie-i-umnozhenie-dvoichnyh-chisel,Операции с двоичными числами,http://foxford.ru/wiki/informatika/slozhenie-vychitanie-i-umnozhenie-dvoichnyh-chisel,Операции с двоичными числами,,,,,,,,,
+25,Системы счисления,,,,,,http://foxford.ru/wiki/informatika/pozitsionnye-sistemy-schisleniya,Перевод в десятичную систему,http://foxford.ru/wiki/informatika/pozitsionnye-sistemy-schisleniya,Перевод в десятичную систему,,,,,,,,,
+32,Многоугольники. Площадь многоугольников,,,http://e-maxx.ru/algo/pt_in_polygon,Принадлежность точки выпуклому многоугольнику,,,,,,,,,,,,,,
+37,ДП с двумя параметрами,,,,,,http://foxford.ru/wiki/informatika/dvumernoe-dinamicheskoe-programmirovanie-tablitsy,Таблицы,http://foxford.ru/wiki/informatika/dvumernoe-dinamicheskoe-programmirovanie-tablitsy,Таблицы,,http://sis.khashaev.ru/2013/august/c-prime/uUVwRJcTbU4/,Наибольшая общая подпоследовательность: восстановление ответа,,,,,,
+37,ДП с двумя параметрами,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/KQcyVlXYnGA/,Наибольшая возрастющая подпоследовательность: сведение к НОП,,,,,,
+39,Очередь,,,,,,http://foxford.ru/wiki/informatika/ochered-na-python,Python,http://foxford.ru/wiki/informatika/ochered-na-python,Python,,http://sis.khashaev.ru/2013/august/c-prime/NBHz-g-OVwg/,Реализация на кольцевом списке,,,,,,
+40,Алгоритм Евклида,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/2MBSsJ0TEMg/,,,,,,,
+47,Взаимное расположение точек и прямых,,,http://e-maxx.ru/algo/lines_intersection,Точка пересечения прямых,,,,,,,,,,,,,,
+47,Взаимное расположение точек и прямых,,,http://e-maxx.ru/algo/segments_intersection,Точка пересечения отрезков,,,,,,,,,,,,,,
+52,Одномерное ДП,,,,,,http://foxford.ru/wiki/informatika/odnomernoe-dinamicheskoe-programmirovanie-kolichestvo-sposobov,Количество способов,http://foxford.ru/wiki/informatika/odnomernoe-dinamicheskoe-programmirovanie-kolichestvo-sposobov,Количество способов,,http://sis.khashaev.ru/2013/august/c-prime/Rh9RHwH5Vj8/,Задача о кузнечике,,,,,,
+58,Перебор комбинаторных объектов,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/bwnRmaaYXMg/,Подмножества,,,,,,
+58,Перебор комбинаторных объектов,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/veWlgAMkQEs/,Сочетания,,,,,,
+60,Окружности,,,http://e-maxx.ru/algo/circles_intersection,Пересечение двух окружностей,,,,,,,,,,,,,,
+60,Окружности,,,http://e-maxx.ru/algo/circle_tangents,Общая касательная к двум окружностям,,,,,,,,,,,,,,
+63,Алгоритм Краскала,,,http://e-maxx.ru/algo/mst_kruskal_with_dsu,Алгоритм Краскала с СНМ,,,,,,,,,,,,,,
+66,Динамическое программирование,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/H5wxrKFMTQ4/,Восстановление ответа,,,,,,
+70,Множества. Формула включения-исключения,http://informatics.mccme.ru/py-source/source/dir/240-457,Множества,http://e-maxx.ru/algo/inclusion_exclusion_principle,,,,,,,,,,,,,,,
+78,Поиск в массиве,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/YSjhrvKHo8Y/,"Максимум, второй максимум",,,,,,
+79,Квадратичные сортировки,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/gZGwKXwjffg/,Сортировка выбором максимума,,,,,,
+79,Квадратичные сортировки,,,,,,,,,,,,,,,,,,
+80,Подсчет. Сортировка подсчетом,http://informatics.mccme.ru/py-source/source/dir/240-424,,,,,http://foxford.ru/wiki/informatika/porazryadnaya-sortirovka,Поразрядная сортировка,http://foxford.ru/wiki/informatika/porazryadnaya-sortirovka,Поразрядная сортировка,,http://sis.khashaev.ru/2008/august/b-prime/kVcmMxhr-CI/,,,,,,,
+80,Подсчет. Сортировка подсчетом,,,,,,,,,,,,,,,,,,
+83,Поиск в ширину,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/RL0BGVJxCKo/,Сложность волнового алгоритма,,,,,http://habrahabr.ru/post/200252/,
+83,Поиск в ширину,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/sX5KYJd3GRY/,Восстановление пути,,,,,,
+83,Поиск в ширину,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/cUTOEaG36Sw/,Клеточные лабиринты,,,,,,
+85,Хранение графа,,,,,,http://foxford.ru/wiki/informatika/hranenie-grafa-spisok-reber,Список ребер,http://foxford.ru/wiki/informatika/hranenie-grafa-spisok-reber,Список ребер,,,,,,,,,
+85,Хранение графа,,,,,,http://foxford.ru/wiki/informatika/hranenie-grafa-matritsa-smezhnosti,Матрица смежности,http://foxford.ru/wiki/informatika/hranenie-grafa-matritsa-smezhnosti,Матрица смежности,,,,,,,,,
+87,Бинарный поиск в упорядоченном массиве,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/sPx1gETM7Eo/,Инварианты,,,,,,
+87,Бинарный поиск в упорядоченном массиве,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/w3nbKMuZqfg/,Левый и правый бинпоиск,,,,,,
+,,,,,,,,,,,,,,,,,,,
+88,Быстрая сортировка,,,,,,http://foxford.ru/wiki/informatika/bystraya-sortirovka-hoara-python,Python,http://foxford.ru/wiki/informatika/bystraya-sortirovka-hoara-python,Python,,,,,,,,,
+89,Сортировка слиянием,,,,,,,,,,,http://sis.khashaev.ru/2008/august/b-prime/itjUmHNrnA8/,,,,,,,
+89,Сортировка слиянием,,,,,,,,,,,http://sis.khashaev.ru/2008/august/b-prime/7JoWmr6_ljM/,,,,,,,
+95,Поиск в глубину,,,http://e-maxx.ru/algo/connected_components,Поиск компонент связности,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/oWc-uhuH0oo/,Реализация для связного графа,,,,,http://habrahabr.ru/post/200074/,
+95,Поиск в глубину,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/xZdaTdiidkk/,Реализация для несвязного графа,,,,,,
+95,Поиск в глубину,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/EJJ3eqOcHe8/,Сложность алгоритма,,,,,,
+95,Поиск в глубину,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/NzFUZRNA3n8/,Поиск цикла,,,,,,
+95,Поиск в глубину,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/yPnelTAnZNE/,Проверка на двудольность,,,,,,
+98,Бинарный поиск по ответу,,,,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/b2KZPLYqbzY/,Задача о двух ксероксах,,,,,,
+98,Бинарный поиск по ответу,,,,,,,,,,,http://sis.khashaev.ru/2008/august/b-prime/3pVREiuGwQ8/,Задача о распиле досок,,,,,,
+98,Бинарный поиск по ответу,,,,,,,,,,,http://sis.khashaev.ru/2008/august/b-prime/YzsVQRESmeE/,Задача о фонтанах,,,,,,
+101,Сканирующая прямая,,,http://e-maxx.ru/algo/intersecting_segments,Поиск пары пересекающихся отрезков,,,,,,,,,,,,,,
+-,Квадродерево,,,,,,,,,,,,,,,,,,
+-,Обратный элемент в кольце по модулю,,,http://e-maxx.ru/algo/reverse_element,,,,,,,,,,,,,,,
+-,Код Грея,,,http://e-maxx.ru/algo/gray_code,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,Cовместная сортировка массивов; сортировка записей,http://informatics.mccme.ru/py-source/source/dir/240-359,,,,,http://foxford.ru/wiki/informatika/sinhronnaya-sortirovka-massivov,,http://foxford.ru/wiki/informatika/sinhronnaya-sortirovka-massivov,,,,,,,,,,
+,Рекуррентные последовательности,http://informatics.mccme.ru/py-source/source/dir/240-394,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,Наименьший общий предок,http://informatics.mccme.ru/py-source/source/dir/240-16188,,,,,,,,,,,,,,,,,
+,Функция Гранди,http://informatics.mccme.ru/py-source/source/dir/240-443,,http://e-maxx.ru/algo/sprague_grundy,,,,,,,,,,,,,,http://habrahabr.ru/post/124856/,
+,Метод градиентного спуска,http://informatics.mccme.ru/py-source/source/dir/240-17890,,,,,,,,,,,,,,,,,
+,?Обработка текста,http://informatics.mccme.ru/py-source/source/dir/240-435,,,,,,,,,,,,,,,,,
+,?Дата и время,http://informatics.mccme.ru/py-source/source/dir/240-451,,,,,,,,,,,,,,,,,
+,Частичные суммы,,,,,,,,,,,,,,,,,,
+,Сжатые таблиы,,,,,,,,,,,,,,,,,,
+,Бор,http://informatics.mccme.ru/py-source/source/dir/240-449,,,,,,,,,,,,,,,,,
+,"Декартово дерево (treap, дерамида)",http://informatics.mccme.ru/py-source/source/dir/240-16186,,http://e-maxx.ru/algo/treap,,,,,,,,,,,,,,,
+,Хеш,http://informatics.mccme.ru/py-source/source/dir/240-448,,http://e-maxx.ru/algo/string_hashes,Применение к задачам на строки,,,,,,,,,,,,,,
+,Вероятность,http://informatics.mccme.ru/py-source/source/dir/240-18055,,,,,,,,,,,,,,,,,
+,Функция Эйлера,,,http://e-maxx.ru/algo/euler_function,,,,,,,,,,,,,,,
+,Расширенный алгоритм Евклида,,,http://e-maxx.ru/algo/extended_euclid_algorithm,,,http://foxford.ru/wiki/informatika/rasshirennyy-algoritm-evklida,,,,,,,,,,,,
+,Числа Фибоначчи,,,http://e-maxx.ru/algo/fibonacci_numbers,,,,,,,,http://sis.khashaev.ru/2013/august/c-prime/38WrqoMIGdk/,,,,,,,
+,sqrt-декомпозиция (корневая оптимизация),,,http://e-maxx.ru/algo/sqrt_decomposition,,,,,,,,,,,,,,http://habrahabr.ru/post/138946/,
+,дерево Фенвика,,,http://e-maxx.ru/algo/fenwick_tree,,,,,,,,,,,,,,,
+,RMQ,http://informatics.mccme.ru/py-source/source/dir/240-420,"Дерево отрезков, RMQ, RSQ",http://e-maxx.ru/algo/rmq,,,,,,,,,,,,,,http://habrahabr.ru/post/114980/,
+,КМП,,,,,,,,,,,,,,,,,http://habrahabr.ru/post/191454/,
+,КМП,,,,,,,,,,,,,,,,,http://habrahabr.ru/post/113266/,Поиск подстроки в строке
+,z-функция,,,,,,,,,,,,,,,,,http://habrahabr.ru/post/113266/,Поиск подстроки в строке
+,meet-in-the-middle,,,,,,,,,,,,,,,,,http://habrahabr.ru/post/191266/,
+68,Сложность алгоритмов,,,,,,,,,,,,,,,,,http://habrahabr.ru/post/196560/,
+68,Сложность алгоритмов,,,,,,,,,,,,,,,,,http://habrahabr.ru/post/188010/,Таблица сложности алгоритмов

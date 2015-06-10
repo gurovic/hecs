@@ -82,6 +82,13 @@ li.e-maxx:before {
     font-family: monospace;
     color:darkgreen;
 }
+li.habr:before {
+    content: "HABRAHABR";
+    margin-right:8px;
+    font-size:10pt;
+    font-family: monospace;
+    color:lightskyblue;
+}
 li.sis-video:before {
     content: "ЛКШ.ВИДЕО";
     margin-right:8px;
