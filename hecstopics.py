@@ -33,16 +33,22 @@ for row in csvreader:
         
 fout = open("index.html", "w", encoding="utf-8")
 
+LEFT = 9
+RIGHT = 25
+TOP = 12
+BOTTOM = 22
+
+
 
 print(HEADER, file=fout)
 
-for j in range(10, 24, 2):
+for j in range(TOP, BOTTOM, 2):
     print('''    <div class="hecs left {}"><div class="inner"><a href="{}">{}</a></div></div>
-'''.format(color[j][8] or "", "pages/" + str(j) + "-8.html",text[j][8] or ""), file=fout)
-    for i in range(9, 9 + 17):
+'''.format(color[j][LEFT] or "", "pages/" + str(j) + "-" + str(LEFT) + ".html",text[j][LEFT] or ""), file=fout)
+    for i in range(LEFT + 1, RIGHT):
         print('''    <div class="hecs {}"><div class="inner"><a href="{}">{}</a></div></div>
 '''.format(color[j][i] or "", "pages/" + str(j) + "-" + str(i) + ".html",text[j][i] or ""), file=fout)
-    for i in range(9, 9 + 17):
+    for i in range(LEFT, RIGHT):
         print('''    <div class="hecs {}"><div class="inner"><a href="{}">{}</a></div></div>
 '''.format(color[j + 1][i] or "", "pages/" + str(j + 1) + "-" + str(i) + ".html",text[j + 1][i] or ""), file=fout)
         
