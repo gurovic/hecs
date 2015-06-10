@@ -257,6 +257,18 @@ h1 {
 .inner{
     text-align:center;
 }
-.inner a{
-    color:white;
+.inner a {
+    color: white;
+}
+.start>div{
+    padding-top: 15px;
+    font-size: 18pt;
+}
+.start {
+    background-color: white;
+}
+.start>div>a{
+    font-weight: bold;
+    color:red;
+    text-decoration: none;
 }
