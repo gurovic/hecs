@@ -43,13 +43,10 @@ BOTTOM = 22
 print(HEADER, file=fout)
 
 for j in range(TOP, BOTTOM, 2):
-    print('''    <div class="hecs left {}"><div class="inner"><a href="{}">{}</a></div></div>
-'''.format(color[j][LEFT] or "", "pages/" + str(j) + "-" + str(LEFT) + ".html",text[j][LEFT] or ""), file=fout)
+    print('''    <div class="hecs left {}"><div class="inner"><a href="{}">{}</a></div></div>'''.format(color[j][LEFT] or "", "pages/" + str(j) + "-" + str(LEFT) + ".html" if text[j][LEFT] else "", text[j][LEFT] or ""), file=fout)
     for i in range(LEFT + 1, RIGHT):
-        print('''    <div class="hecs {}"><div class="inner"><a href="{}">{}</a></div></div>
-'''.format(color[j][i] or "", "pages/" + str(j) + "-" + str(i) + ".html",text[j][i] or ""), file=fout)
+        print('''    <div class="hecs {}"><div class="inner"><a href="{}">{}</a></div></div>'''.format(color[j][i] or "", "pages/" + str(j) + "-" + str(i) + ".html"  if text[j][i] else "", text[j][i] or ""), file=fout)
     for i in range(LEFT, RIGHT):
-        print('''    <div class="hecs {}"><div class="inner"><a href="{}">{}</a></div></div>
-'''.format(color[j + 1][i] or "", "pages/" + str(j + 1) + "-" + str(i) + ".html",text[j + 1][i] or ""), file=fout)
+        print('''    <div class="hecs {}"><div class="inner"><a href="{}">{}</a></div></div>'''.format(color[j + 1][i] or "", "pages/" + str(j + 1) + "-" + str(i) + ".html"  if text[j + 1][i] else "",text[j + 1][i] or ""), file=fout)
         
 print(FOOTER, file=fout)

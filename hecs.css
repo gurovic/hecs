@@ -22,7 +22,7 @@ ul.resources>li{
 }
 ul.resources>li:before {
     margin-left:30px;
-    font-size:16pt;
+    font-size:20pt;
 }
 ul.resources>li.theory:before {
     content: "ТЕОРИЯ";
@@ -40,19 +40,19 @@ ul.resources>li.task:before {
     content: "ЗАДАЧИ";
 }
 ul.resources>li.theory{
-    background: url("img/theory16.png") no-repeat 0 0;
+    background: url("img/theory16.png") no-repeat 5px 10px;
 }
 ul.resources>li.video{
-    background: url("img/video16.png") no-repeat 0 0;
+    background: url("img/video16.png") no-repeat 5px 10px;
 }
 ul.resources>li.pres{
-    background: url("img/pres16.png") no-repeat 0 0;
+    background: url("img/pres16.png") no-repeat 5px 10px;
 }
 ul.resources>li.vis{
-    background: url("img/vis16.png") no-repeat 0 0;
+    background: url("img/vis16.png") no-repeat 5px 10px;
 }
 ul.resources>li.task{
-    background: url("img/task16.png") no-repeat 0 0;
+    background: url("img/task16.png") no-repeat 5px 10px;
 }
 
 ul.resources>li>ul{
@@ -68,43 +68,37 @@ ul.resources ul {
     margin: 0;
     padding-left: 0;
 }
+li>a {
+    font-size:16pt;
+}
+li:before {
+    margin-right:14px;
+    font-size:16pt;
+    font-family: monospace;
+}
 li.informatics:before {
     content: "INFORMATICS";
-    margin-right:8px;
-    font-size:10pt;
-    font-family: monospace;
-    color:saddlebrown;
+    color: saddlebrown;
 }
 li.e-maxx:before {
     content: "E-MAXX";
-    margin-right:8px;
-    font-size:10pt;
-    font-family: monospace;
     color:darkgreen;
 }
 li.habr:before {
     content: "HABRAHABR";
-    margin-right:8px;
-    font-size:10pt;
-    font-family: monospace;
     color:lightskyblue;
 }
 li.sis-video:before {
     content: "ЛКШ.ВИДЕО";
-    margin-right:8px;
-    font-size:9pt;
-    font-family: monospace;
     color: darkblue;
 }
 li.foxford:before {
     content: "ФОКСФОРД";
-    margin-right:8px;
-    font-size:9pt;
-    font-family: monospace;
     color: darkorange;
 }
 h1 {
     margin-left:20px;
+    font-size:30pt; 
 }
 .hecs.left {
     margin-left:57px;
