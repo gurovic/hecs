@@ -6,8 +6,7 @@ body {
     padding:0;
 }
 .container {
-    padding-top:30px;
-    width:1900px;
+    width:1800px;
 }
 ul.resources {
     display: block;
@@ -98,7 +97,7 @@ li.foxford:before {
 }
 h1 {
     margin-left:20px;
-    font-size:30pt; 
+    font-size:30pt;
 }
 .hecs.left {
     margin-left:57px;
@@ -111,24 +110,23 @@ h1 {
     float:left;
     position: relative;
     width: 105px;
-    height: 60.62px;
-    margin: 30.31px 2px;
+    height: 60px;
+    margin: 30px 2px 5px 2px;
     background-color: white;
-    margin-top:5px;
 }
 
 .hecs:before,
 .hecs:after {
     content: "";
     position: absolute;
-    width: 0px;
-    border-left: 52.5px solid transparent;
-    border-right: 52.5px solid transparent;
+    width: 0;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
 }
 
 .hecs:before {
     bottom: 100%;
-    border-bottom: 30.31px solid white;
+    border-bottom: 30px solid white;
     margin-top:5px;
 }
 
@@ -136,7 +134,7 @@ h1 {
     top: 100%;
     width: 0;
     margin-left:0;
-    border-top: 30.31px solid white;
+    border-top: 30px solid white;
 }
 .data{
     background-color: brown;
