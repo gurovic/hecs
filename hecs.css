@@ -262,7 +262,7 @@ h1 {
 .inner{
     text-align:center;
 }
-.inner a {
+a>div>div {
     color: bisque;
     text-decoration: none;
     font-family: sans-serif;
@@ -275,7 +275,7 @@ h1 {
 .start {
     background-color: white;
 }
-.start>div>a{
+.start>div{
     font-weight: bold;
     color:red;
     text-decoration: none;

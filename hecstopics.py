@@ -14,6 +14,7 @@ HEADER = '''<!DOCTYPE html>
 '''
 
 FOOTER = '''</div>
+<!--LiveInternet counter--><script type="text/javascript">document.write("<a href='//www.liveinternet.ru/click' target=_blank><img src='//counter.yadro.ru/hit?t44.6;r" + escape(document.referrer) + ((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)) + ";u" + escape(document.URL) + ";" + Math.random() + "' border=0 width=31 height=31 alt='' title='LiveInternet'><\/a>")</script><!--/LiveInternet-->
 </body>
 </html>'''
 
@@ -43,10 +44,10 @@ BOTTOM = 22
 print(HEADER, file=fout)
 
 for j in range(TOP, BOTTOM, 2):
-    print('''    <div class="hecs left {}"><div class="inner"><a href="{}">{}</a></div></div>'''.format(color[j][LEFT] or "", "pages/" + str(j) + "-" + str(LEFT) + ".html" if text[j][LEFT] else "", text[j][LEFT] or ""), file=fout)
+    print('''    <a href="{}"><div class="hecs left {}"><div class="inner">{}</div></div></a>'''.format("pages/" + str(j) + "-" + str(LEFT) + ".html" if text[j][LEFT] else "", color[j][LEFT] or "", text[j][LEFT] or ""), file=fout)
     for i in range(LEFT + 1, RIGHT):
-        print('''    <div class="hecs {}"><div class="inner"><a href="{}">{}</a></div></div>'''.format(color[j][i] or "", "pages/" + str(j) + "-" + str(i) + ".html"  if text[j][i] else "", text[j][i] or ""), file=fout)
+        print('''    <a href="{}"><div class="hecs {}"><div class="inner">{}</div></div></a>'''.format("pages/" + str(j) + "-" + str(i) + ".html"  if text[j][i] else "", color[j][i] or "", text[j][i] or ""), file=fout)
     for i in range(LEFT, RIGHT):
-        print('''    <div class="hecs {}"><div class="inner"><a href="{}">{}</a></div></div>'''.format(color[j + 1][i] or "", "pages/" + str(j + 1) + "-" + str(i) + ".html"  if text[j + 1][i] else "",text[j + 1][i] or ""), file=fout)
+        print('''    <a href="{}"><div class="hecs {}"><div class="inner">{}</div></div></a>'''.format("pages/" + str(j + 1) + "-" + str(i) + ".html"  if text[j + 1][i] else "", color[j + 1][i] or "", text[j + 1][i] or ""), file=fout)
         
 print(FOOTER, file=fout)
