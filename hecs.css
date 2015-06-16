@@ -257,11 +257,14 @@ h1 {
     text-align:center;
 }
 .inner a {
-    color: white;
+    color: bisque;
+    text-decoration: none;
+    font-family: sans-serif;
 }
 .start>div{
     padding-top: 15px;
     font-size: 18pt;
+    font-family: serif;
 }
 .start {
     background-color: white;
