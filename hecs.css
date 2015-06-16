@@ -81,7 +81,7 @@ li.informatics:before {
 }
 li.e-maxx:before {
     content: "E-MAXX";
-    color:darkgreen;
+    color: darkgreen;
 }
 li.habr:before {
     content: "HABRAHABR";
@@ -146,13 +146,13 @@ h1 {
     border-bottom-color: brown;
 }
 .dp{
-    background-color:green;
+    background-color: #040/*green*/;
 }
 .dp:before{
-    border-bottom-color: green;
+    border-bottom-color: #040/*green*/;
 }
 .dp:after{
-    border-top-color: green;
+    border-top-color: #040/*green*/;
 }
 .alg {
     background-color:darkgray;
@@ -182,13 +182,13 @@ h1 {
     border-top-color: mediumvioletred;
 }
 .str {
-    background-color: red;
+    background-color: #400 /*red*/;
 }
 .str:after{
-    border-top-color: red;
+    border-top-color: #400 /*red*/;
 }
 .str:before{
-    border-bottom-color: red;
+    border-bottom-color: #400 /*red*/;
 }
 .eq {
     background-color: darkblue;
